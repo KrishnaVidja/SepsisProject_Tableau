@@ -3,3 +3,13 @@ In the U.S., nearly 1.7 million people develop sepsis, and 270,000 people die fr
 
 ![SIRS_flowchart](https://github.com/KrishnaVidja/SepsisProject_Tableau/assets/106781881/5f28b80c-e729-43f6-b514-289fad9ad9ec)
 
+###Objective
+Identify a patient's risk of sepsis and make a prediction of sepsis for every hourly time window in the patient’s clinical record.
+
+###About Data
+The Sepsis project involved the analysis of a vast dataset comprising over 1.5 million data points from more than 40,000 ICU patients. This dataset included hourly records, demographic information, and the presence of a sepsis label indicating the hour of sepsis diagnosis. Additionally, the project included the bloodwork test results of 34 key biomarkers associated with sepsis.
+
+###Demographic Analysis
+Utilized Calculated Fields, Level of Details Expressions(LOD) with the "FIXED" keyword to accurately classify patients into sepsis, non-sepsis, and onset sepsis
+
+![Screenshot 2023-10-10 131119](https://github.com/KrishnaVidja/SepsisProject_Tableau/assets/106781881/4cbce868-4447-4f68-8e70-24c0b4c27867)
