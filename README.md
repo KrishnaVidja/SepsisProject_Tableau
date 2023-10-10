@@ -36,23 +36,22 @@ Utilized Calculated Fields, Level of Details Expressions(LOD) with the "FIXED" k
 * we understand that there are 22% of total patients in this data set got admitted with SIRS symptoms. It is hard to find the time of trigger since many patients may not keep track of the time when they start showing each symptom.
 * Over 55% of patients exhibit high heart rates and increased metabolic stress (RR). Around 2% of patients are admitted with Acute-phase Reactions (high temp & high WBC), which can be fatal. Within the first hour of admission, many patients show more than 2 SIRS symptoms, requiring immediate medical attention.
 * The percentage of new SIRS patients drops below 3% after 10 hours of admission, and it continues to decrease over time.
-
-  
-
+![Screenshot 2023-10-10 143804](https://github.com/KrishnaVidja/SepsisProject_Tableau/assets/106781881/305e538e-2d31-428b-b1c1-f977b4c4d09f)
 * Utilized calculated fields, Level of Details Expressions(LOD) with the "FIXED" keyword to specifically target and identify the SIRS trigger hour for patients.
 * Implemented dummy axes technique and formatted cell colors to effectively highlight abnormal test results, enabling quick identification and analysis.
 * Added URL actions to implement email alerts, ensuring the prompt notification of responsible hospital staff when patients meet the pre-alert criteria, facilitating timely attention and response.
 
 ### Septic Shock Analysis
-![Screenshot 2023-10-10 141920](https://github.com/KrishnaVidja/SepsisProject_Tableau/assets/106781881/417421c2-2603-4d83-9406-e25ef27731f3)
+![Screenshot 2023-10-10 143430](https://github.com/KrishnaVidja/SepsisProject_Tableau/assets/106781881/6dfab5bb-dda7-48ae-8c25-9139ec28e4af)
 * Septic shock is a severe, life-threatening condition with a low survival rate. It depends on your health, age, treatment, and organ failure. Without treatment, most don't survive. With it, about 30-40% can make it.
 * Criteria: SBP<90 mm Hg, MAP<60 mm Hg , Resp ≥ 22 breaths/mins,Lactate>2 mmol/L.
 * There were 473 cases of septic shock, and it was more common among individuals aged 71 to 80. This risk was particularly notable in both men and women aged 61 to 70.
-![Screenshot 2023-10-10 141954](https://github.com/KrishnaVidja/SepsisProject_Tableau/assets/106781881/82c51811-0c40-4b7e-ba11-ac50f367da43)
+![Screenshot 2023-10-10 143536](https://github.com/KrishnaVidja/SepsisProject_Tableau/assets/106781881/0673226a-9229-4183-b99a-0092c6e3e71c)
 * This text chart illustrates the analysis of the septic shock range over hours. It identifies biomarkers that have surpassed threshold values, potentially causing septic shock in patients. For instance, when Lactate exceeds 2, it poses a risk and can trigger septic shock.
 
 ### Data Driven impact.....
 This project demonstrates the significant impact of data analysis on patient care. By identifying crucial risk factors and sepsis-related patterns, we empower doctors to detect and treat this severe condition proactively, potentially saving lives and reducing hospital stays. This not only improves patient outcomes but also enhances ICU operational efficiency by up to 30%.
+
 
 
 
